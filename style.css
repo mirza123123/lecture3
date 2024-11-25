@@ -1,3 +1,214 @@
-th{
-    background-color: aqua;
+@media screen and (min-width: 1024px) {
+    
+
+
+    body{
+        
+        display: block;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        background-color: black;
+    }
+    header{
+        display: flex;
+        flex-direction: row;
+        color: white;
+        gap: 170px;
+    }
+    .poto1{
+        width: 53px;
+height: 54px;
+flex-shrink: 0;
+    }
+    .button1{
+        background-color:#FCAF17;
+        border-radius:20px ;
+        width: 193px;
+height: 52px;
+flex-shrink: 0;
+      
+    }
+    .button2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        width: 48px;
+height: 48px;
+flex-shrink: 0;
+background-color: black;
+    }
+    .button3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 20px;
+        width: 48px;
+height: 48px;
+flex-shrink: 0;
+background-color: black;
+    }
+ 
+    .poto2{
+        width: 100%;
+height: 796px;
+flex-shrink: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+            
+        
+        border-radius: 20px;
+       
+       
+    }
+   
+    .text4{
+        
+        color: white;
+        display: flex;
+        justify-content: flex-start; 
+        align-items: flex-start;
+        width: 80%;
+    }
+    .conteiner2{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        gap: 150px;
+    }
+    .text5, .text6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:#606060 ;
+        border-radius: 100px;
+        width: 70px;
+height: 32px;
+flex-shrink: 0;
+    }
+    .text7{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 196px;
+height: 32px;
+flex-shrink: 0;
+background-color: #606060;
+border-radius: 100px;
+    }
+    .conteiner3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 100px;
+    }
+    .conteiner4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .button4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #FCAF17;
+        width: 260px;
+height: 63px;
+border-radius: 10px;
+margin-top: 40px;
+
+    }
+    
+    .text8{
+        color: white;
+    }
+    .conteiner5{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 10px;
+
+    }
+    .text8{
+        color: white;
+    }
+    .conteiner6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .poto7{
+    
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: -400px;
+margin-right: 700px;
+    }
+    .text9{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 320px;
+        margin-top: -100px;
+        
+       
+    }
+    .text10{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 326px;
+        height: 240px;
+        margin-left: 300px;
+
+    }
+ 
+   
+    .button6{
+        background-color: #FCAF17;
+        width: 260px;
+        height: 63px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        margin-left: 300px;
+        margin-top: -30px;
+    }
+    .poto8{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+margin-left: 620px;
+margin-top: -530px;
+    }
+    footer{
+        background-color: black;
+        
+        width: 1440px;
+height: 238px;
+flex-shrink: 0;
+margin-top: 200px;
+    }
+    .conteiner7{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        gap: 100px;
+        color: white;
+    }
+
+
 }
